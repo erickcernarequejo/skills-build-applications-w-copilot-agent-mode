@@ -1,0 +1,69 @@
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  min-height: 100vh;
+  color: #f8fbff;
+  background:
+    radial-gradient(circle at top left, rgba(45, 212, 191, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.22), transparent 30%),
+    linear-gradient(160deg, #08111f 0%, #0a1b2f 48%, #102940 100%);
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(248, 251, 255, 0.88);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.hero-card {
+  border-radius: 1.5rem;
+  background: rgba(9, 20, 36, 0.72);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.brand-mark {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  background: #ffffff;
+  padding: 0.35rem;
+}
+
+.stat-card {
+  border-radius: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stat-label {
+  color: rgba(248, 251, 255, 0.62);
+  font-size: 0.85rem;
+  margin-bottom: 0.35rem;
+}
+
+.stat-value {
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .py-lg-6 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+  }
+}
